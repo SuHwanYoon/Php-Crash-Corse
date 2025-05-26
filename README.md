@@ -2,4 +2,4 @@
 
 ## 1. Variables & Types
 
-![Variables Output](./images/variables-output.png | width=500)
+![Variables Output](images/variables-output.png)
