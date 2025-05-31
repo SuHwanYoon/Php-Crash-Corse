@@ -165,3 +165,28 @@ function dateManipulationExample($date) {
     return date("Y-m-d H:i:s", $timestamp);
 }
 
+// 함수 호출 위치 테스트
+echo "Function location test:<br>";
+echo test1() . "<br>";  // 함수가 아래에 정의되어 있어도 호출 가능
+echo test2() . "<br>";  // 조건문 안에 정의된 함수는 먼저 정의되어야 함
+
+// 기본적인 함수 정의
+function test1() {
+    return "This is test1 function";
+}
+
+// 조건에 따른 함수 정의
+if (true) {
+    function test2() {
+        return "This is test2 function";
+    }
+}
+
+// 함수 정의 위치 설명
+function explainFunctionLocation() {
+    return "PHP에서 기본 함수는 어디서든 정의하고 호출할 수 있지만, " .
+           "조건문 내에서 정의된 함수는 반드시 호출 전에 정의되어야 합니다.";
+}
+
+echo explainFunctionLocation() . "<br>";
+

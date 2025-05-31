@@ -27,3 +27,9 @@
 ## 7. Functions
 
 ![Functions Output](images/functions-output.png)
+
+## 7. Form & Vaildating
+
+![invaild Output1](images/invaild-fileds-output1.png)
+![invaild Output2](images/invaild-fileds-output2.png)
+![vaild Output2](images/vaild-fileds-output1.png)
