@@ -33,3 +33,9 @@
 ![invaild Output1](images/invaild-fileds-output1.png)
 ![invaild Output2](images/invaild-fileds-output2.png)
 ![vaild Output2](images/vaild-fileds-output1.png)
+
+## 8. File upload & delete
+
+![file-upload-output](images/file-upload-output.png)
+![contracts-list-output](images/contracts-list-output.png)
+![deleted-list-output](images/deleted-list-output.png)
